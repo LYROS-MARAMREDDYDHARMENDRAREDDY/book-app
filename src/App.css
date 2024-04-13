@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
   
 .App-header {
@@ -37,22 +38,35 @@
   left: 50%;
   width: auto;
   transform: translate(-50%, -50%);
-  background-color: #274070;
+  background-color: skyblue;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  display: flex; 
+  align-items: center;
+  flex-wrap: wrap;
 }
   
 .book-detail img {
-  width: 200px;
-  height: auto;
+  width:102.89px;
+  height:199.22px;
+  transform: rotate(-3.5deg);
+  margin-right: 20px; 
+}
+
+.book-detail h2 {
+  margin-top: 0; 
+  margin-bottom: 10px; 
+  width: 100%;
+}
+
+.book-detail p {
+  margin: 0; 
+  width: 100%; 
 }
   
 .book-detail button {
-  margin-bottom: 10px;
+  margin: 10px;
+ 
 }
   
-.book-detail a {
-  display: block;
-  margin-top: 10px;
-}
